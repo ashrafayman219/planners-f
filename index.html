@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/dark/main.css"/>
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="https://js.arcgis.com/4.29/"></script>
+    <!-- <script type="module" src="http://infopmo2030-001-site8.atempurl.com/esriGTLibrary/KMLFillters.js"></script> -->
+
+  </head>
+  <body>
+    
+    <!-- <div id="controlsWidget" class="esri-widget">
+      <a id="takeScreenshotButton" class="btn">Take Screenshot</a>
+    </div> -->
+
+    <div id="displayMap">
+    
+    </div>
+
+    <!-- <div id="dataContainer"></div>
+    <div id="info">
+      <span id="name"></span> <br />
+    </div> -->
+
+    <div id="plans">
+      <select name="" id="plan" class="select esri-widget esri-select" style="width: 275px; font-family: Avenir Next; font-size: 1em;">
+          <option value="alll">اختر المخطط</option>
+          <option value="all">الكل</option>
+      </select>
+    </div>
+
+    <div id="plans2">
+      <select name="" id="plan2" class="select esri-widget esri-select" style="width: 275px; font-family: Avenir Next; font-size: 1em;">
+          <option value="all2">اختر التصنيف</option>
+      </select>
+    </div>
+
+    <div id="plans3">
+      <select name="" id="plan3" class="select esri-widget esri-select" style="width: 275px; font-family: Avenir Next; font-size: 1em;">
+          <option value="all3">اختر الاستخدام</option>
+      </select>
+    </div>
+
+    <div id="plans4">
+      <select id="comparison-operator" class="select esri-widget esri-select" style="width: 275px; font-family: Avenir Next; font-size: 1em;">
+        
+      </select>
+    </div>
+
+    <div id="plans5">
+      <input id="inputt" type="text" class="input esri-widget esri-input" style="width: 275px; font-family: Avenir Next; font-size: 1em;">
+    </div>
+    <!-- onkeypress="return isNumberKey(event)" -->
+
+    
+    <div id="plans6">
+      <button id="buttonQuery" class="button esri-widget esri-button" style="width: 275px; font-family: Avenir Next; font-size: 1em;">
+        Query
+      </button>
+    </div>
+
+    <!-- <div id="quu">
+        <select name="" id="cti" class="select2">
+            <option value="ff">Pick a City</option>
+        </select>
+    </div> -->
+    <script type="module" src="script.js"></script>
+    <!-- <script type="module" src="KMLFillters.js"></script> -->
+    <!-- <script src="https://unpkg.com/@tmcw/togeojson"></script> -->
+
+
+  </body>
+</html>
