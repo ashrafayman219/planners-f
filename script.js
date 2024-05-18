@@ -24,7 +24,7 @@ let geojson;
 let featureLayer;
 
 let arrayOfKMLs = [
-  "/plan_325.kml",
+  // "/plan_325.kml",
   "/Plan_397.kml",
   "/Plan_734.kml",
   "/Plan_909.kml",
